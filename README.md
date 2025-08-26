@@ -1,4 +1,4 @@
-# Next.js SaaS Starter
+# Auto Savers MVP
 
 This is a starter template for building a SaaS application using **Next.js** with support for authentication, Stripe integration for payments, and a dashboard for logged-in users.
 
@@ -27,10 +27,15 @@ This is a starter template for building a SaaS application using **Next.js** wit
 ## Getting Started
 
 ```bash
-git clone https://github.com/nextjs/saas-starter
+git clone https://github.com/startupminer/autosavers
 cd saas-starter
 pnpm install
 ```
+
+````fix node error
+You are using Node.js 19.1.0. For Next.js, Node.js version "^18.18.0 || ^19.8.0 || >= 20.0.0" is required.
+
+nvm use 20
 
 ## Running Locally
 
@@ -38,7 +43,7 @@ pnpm install
 
 ```bash
 stripe login
-```
+````
 
 Use the included setup script to create your `.env` file:
 
